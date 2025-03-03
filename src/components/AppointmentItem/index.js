@@ -16,7 +16,7 @@ const AppointmentItemComponent = props => {
     <li>
       <div className="appointment-item">
         <div className="appointment-details">
-          <h4 className="title">{title}</h4>
+          <p className="title">{title}</p>
           <button
             type="button"
             className="star-button"
