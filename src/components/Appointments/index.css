@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vmin;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  padding: 3%;
+  border-radius: 1%;
+  gap: 10px;
+  min-width: 80%;
+  max-width: 80%;
+}
+.top-container {
+  display: flex;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.appointments-stared {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (max-width: 767px) {
+  .image-container {
+    display: none;
+  }
+}
+.stared-button {
+  background-color: #9796f0;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.ul-items {
+  display: flex;
+  flex-wrap: wrap;
+}

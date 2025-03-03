@@ -1,0 +1,22 @@
+li {
+  list-style: none;
+}
+.appointment-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid pink;
+  border-radius: 10px;
+  max-width: 300px;
+  padding: 10px;
+  margin: 5px;
+}
+.star-button {
+  border: none;
+  background-color: transparent;
+}
+.appointment-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
